@@ -1,7 +1,9 @@
 import { StackActions } from "@react-navigation/native";
+import {NavigationContainerRef} from "@react-navigation/native"; // eslint-disable-line no-unused-vars
 
-import * as React from "react";
+import React from "react";
 
+/** @type {React.RefObject<NavigationContainerRef>} */
 export const navigator = React.createRef();
 
 function navigate(name, params) {
