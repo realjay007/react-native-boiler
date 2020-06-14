@@ -4,14 +4,18 @@ import {
 // SafeAreaView,
 // StyleSheet,
 // ScrollView,
-// View,
-// Text,
+View,
+Text,
 // StatusBar,
 } from "react-native";
 import "react-native-gesture-handler";
 
 const App = () => {
-	return <></>;
+	return (
+		<View>
+			<Text>Hello world!</Text>
+		</View>
+	)
 };
 
 export default App;
